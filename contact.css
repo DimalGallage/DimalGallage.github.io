@@ -1,7 +1,7 @@
 .contact_container{
     background: rgb(173,110,255);
     background: linear-gradient(298deg, rgba(173,110,255,1) 0%, rgba(125,248,203,1) 100%);
-    width: 80vw;
+    width: 70vw;
     height: 90vh;
     margin: auto;
     padding: 10vh;
@@ -37,6 +37,7 @@
     width: 70%;
     padding: 10px;
     margin-bottom: 20px;
+    margin-top: 10px;
     border: none;
     border-radius: 10px;
 }
@@ -67,7 +68,7 @@
 
 .contact_details{
     color:  white;
-    padding-left: 150px;
+    padding-left: 120px;
     box-sizing: border-box;
 }
 .contact_details h3{

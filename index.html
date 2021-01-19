@@ -19,13 +19,20 @@
     <link rel="stylesheet" href="web_dev.css">
     <link rel="stylesheet" href="gallery.css">
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="side_nav.css">
     <script src="navigation.js"></script>
     <script src="anime.min.js"></script>
+    <script src="side_nav.js"></script>
     
 </head>
-<body>
+<body onscroll="navMove()">
+
+    <!-- cursor -->
+
     <div class="cursor"></div>
-    <div>
+
+    <!-- hamburger menu navigation -->
+    <div id="top">
         <div class="main_pane">
             <div class="inner_pane">
               <div class="content_pane" id="content_pane" >
@@ -37,11 +44,11 @@
                   </button>
                 </div>
                 <ul>
-                  <li>Home</li>
-                  <li>Skills</li>
-                  <li>Gallery</li>
-                  <li>Projects</li>
-                  <li>Contact</li>
+                  <a href="#top" onclick="moveOut()"><li>Home</li></a>
+                  <a href="#skills_container" onclick="moveOut()"><li>Skills</li></a>
+                  <a href="#projects_container" onclick="moveOut()"><li>Projects</li></a>
+                  <a href="#design_gallery" onclick="moveOut()"><li>Gallery</li></a>
+                  <a href="#contact_container" onclick="moveOut()"><li>Contact</li></a>
                 </ul>
                 <div class="download">
                   <button>
@@ -55,7 +62,8 @@
                   <p>address : **/* *********** **** *********</p>
                 </div>
                 <div class="SM_icon_bar">
-                  <img src="images/logo_youtube.png" width="30px" alt="youtube" />
+                  <img src="images/github.png" width="30px" alt="github" />
+                  <img src="images/dribble.png" width="30px" alt="bribble" />
                   <img src="images/logo_fb.png" width="30px" alt="facebook" />
                   <img src="images/logo_twitter.png" width="30px" alt="twitter" />
                   <img src="images/logo_linkedin.png" width="30px" alt="linkedin" />
@@ -81,7 +89,10 @@
         </div>
     </div>
 
-    <div class='home_container'>
+
+    <!-- home container -->
+
+    <div class='home_container' id="home_container">
         <div class="home_inner_container">
             <div class='home_content_container'>
                 <div class='heading_container'>
@@ -107,7 +118,8 @@
             </div>
         </div>
         <div class="SM_icon_container">
-            <img src="images/logo_youtube.png" alt="youtube" />
+            <img src="images/github.png" alt="github" />
+            <img src="images/dribble.png" alt="bribble" />
             <img src="images/logo_fb.png" alt="facebook" />
             <img src="images/logo_twitter.png" alt="twitter" />
             <img src="images/logo_linkedin.png" alt="linkedin" />
@@ -140,7 +152,7 @@
     </div>
 
     <!-- projects container -->
-    <div class="projects_container">
+    <div class="projects_container" id="projects_container">
         <div class="main_project_container">
             <div class="main_project_image">
                 <img src="images/attic.png" alt="">
@@ -199,7 +211,7 @@
 
 
     <!-- web development -->
-    <div class="web_dev_container">
+    <div class="web_dev_container" id="web_dev_container">
         <div class="web_screen">
             <h1>Web Development</h1>
             <p>I have used my design skillset into action by 
@@ -231,7 +243,7 @@
 
 
     <!-- design gallery -->
-    <div class="gallery_main">
+    <div class="gallery_main" id="design_gallery">
         <div class="gallery_heading">
             <h1>DESIGN<br><span>GALLERY</span></h1>
         </div>
@@ -243,12 +255,13 @@
 
     <!-- contact form -->
 
-    <div class="contact_container">
+    <div class="contact_container" id="contact_container">
 
         <div class="contact_header">
             <h1>Contact</h1>
             <div class="SM_icon_container">
-                <img src="images/logo_youtube.png" alt="youtube" />
+                <img src="images/github.png" alt="github" />
+                <img src="images/dribble.png" alt="bribble" />
                 <img src="images/logo_fb.png" alt="facebook" />
                 <img src="images/logo_twitter.png" alt="twitter" />
                 <img src="images/logo_linkedin.png" alt="linkedin" />
@@ -260,12 +273,12 @@
                 <form action="https://formspree.io/f/moqprjjw" method="POST">
                     <label>
                         Email:<br>
-                        <input type="text" name="_replyto">
+                        <input type="email" name="_replyto" required>
                     </label>
                     <br>
                     <label>
                         Message:<br>
-                        <textarea name="message"></textarea>
+                        <textarea name="message" required></textarea>
                     </label>
                     <br>
                     <button type="submit">Send</button>
@@ -285,6 +298,39 @@
                 </div>
             </div>
         </div>
+    </div>
+
+
+    <!-- side navigation buttons -->
+
+    <div class="side_nav_container">
+        <ul>
+            <li>
+                <a href="#top">
+                    <button id="navBtn_home"></button>
+                </a><br>
+            </li>
+            <li>
+                <a href="#skills_container">
+                    <button id="navBtn_skills"></button>
+                </a><br>
+            </li>
+            <li>
+                <a href="#projects_container">
+                    <button id="navBtn_projects"></button>
+                </a><br>
+            </li>
+            <li>
+                <a href="#design_gallery">
+                    <button id="navBtn_gallery"></button>
+                </a><br>
+            </li>
+            <li>
+                <a href="#contact_container">
+                    <button id="navBtn_contact"></button>
+                </a>
+            </li>
+        </ul>
     </div>
 
     <script src="cursor.js"></script>
