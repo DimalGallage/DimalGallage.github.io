@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimal Gallage</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="navigation_content.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="scrollBar.css">
+    <link rel="stylesheet" href="cursor.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="web_dev.css">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="navigation.js"></script>
+    <script src="anime.min.js"></script>
+    
+</head>
+<body>
+    <div class="cursor"></div>
+    <div>
+        <div class="main_pane">
+            <div class="inner_pane">
+              <div class="content_pane" id="content_pane" >
+                <div class="nav_head">
+                  <img src="images/donz_logo.png" alt="brand logo" width="120px" />
+                  <button onclick="moveOut()">
+                    <div id="line01" class="line"></div>
+                    <div id="line02" class="line"></div>
+                  </button>
+                </div>
+                <ul>
+                  <li>Home</li>
+                  <li>Skills</li>
+                  <li>Gallery</li>
+                  <li>Projects</li>
+                  <li>Contact</li>
+                </ul>
+                <div class="download">
+                  <button>
+                    <div class="btn_text">Download CV</div>
+                    <img src="images/download.png" width="45px" alt="" />
+                  </button>
+                </div>
+                <div class="cont_details">
+                  <p>tel : +94 774564321</p>
+                  <p>email : dondimalgallage@gmail.com</p>
+                  <p>address : **/* *********** **** *********</p>
+                </div>
+                <div class="SM_icon_bar">
+                  <img src="images/logo_youtube.png" width="30px" alt="youtube" />
+                  <img src="images/logo_fb.png" width="30px" alt="facebook" />
+                  <img src="images/logo_twitter.png" width="30px" alt="twitter" />
+                  <img src="images/logo_linkedin.png" width="30px" alt="linkedin" />
+                  <img src="images/logo_instagram.png" width="30px" alt="instagram" />
+                </div>
+              </div>
+            </div>
+        </div>
+        <div class="inclinedPane" id='inclined01'></div>
+        <div class='header_container'>
+            <button onclick="moveIn()">
+                <p>MENU</p>
+                <div class='line_container'>
+                    <div class='line odd'></div>
+                    <div class='line even'></div>
+                    <div class='line odd'></div>
+                    <div class='line even'></div>
+                </div>
+            </button>
+            <div class='logo_container'>
+                <img src="images/donz_logo.png" alt="" width="100px"/>
+            </div>
+        </div>
+    </div>
+
+    <div class='home_container'>
+        <div class="home_inner_container">
+            <div class='home_content_container'>
+                <div class='heading_container'>
+                    <h1 class='heading01'>DIMAL</h1>
+                    <h1 class='heading02'>GALLAGE</h1>
+                </div>
+                <p id="para_01">Hello! I'm Dimal Gallage. I'm a undergraduate
+                    at Informatics Institute of Technology enrolled
+                    in<span> Bsc in Computer Science</span> program offered by 
+                    the University of Westminster UK.  </p><br/>
+                <p>I'm a creative individual with a great passion 
+                    for UI design and web & mobile application development. <br/><br/>
+                    During the 1st & 2nd years at IIT, I've developed my skills 
+                    in Java, JavaScript, HTML,CSS,JQuerry. Also in front-end 
+                    frameworks such as NodeJs, React, React Native and Flutter.</p>
+                <div class='button_group'>
+                    <button id="download">Download CV</button>
+                    <button>Contact</button>
+                </div>
+            </div>
+            <div class='image_container'>
+                <img src="images/portrait.png" alt='portrait image'/>
+            </div>
+        </div>
+        <div class="SM_icon_container">
+            <img src="images/logo_youtube.png" alt="youtube" />
+            <img src="images/logo_fb.png" alt="facebook" />
+            <img src="images/logo_twitter.png" alt="twitter" />
+            <img src="images/logo_linkedin.png" alt="linkedin" />
+            <img src="images/logo_instagram.png" alt="instagram" />
+        </div>
+    </div>
+
+    <!-- skills container -->
+    <div class="skills_container" id="skills_container">
+        <div class="skills_inner_container">
+            <h1>What I have improved my skills in,</h1>
+            <div class="skills_icon_container">
+                <div class="row_01">
+                    <img src="images/java.png" alt="java">
+                    <img src="images/python.png" alt="java">
+                    <img src="images/html.png" alt="java">
+                    <img src="images/css.png" alt="java">
+                    <img src="images/js.png" alt="java">
+                    <img src="images/flutter.png" alt="java">
+                </div>
+                <div class="row_02">
+                    <img src="images/react.png" alt="java">
+                    <img src="images/ps.png" alt="java">
+                    <img src="images/ai.png" alt="java">
+                    <img src="images/xd.png" alt="java">
+                    <img src="images/figma.png" alt="java">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- projects container -->
+    <div class="projects_container">
+        <div class="main_project_container">
+            <div class="main_project_image">
+                <img src="images/attic.png" alt="">
+            </div>
+            <div class="main_project_content">
+                <h1>My Projects</h1>
+                <h3>Attic - Augmented reality Mobile App</h3>
+                <p>Attic is a AR powered mobile application developed 
+                    as the second year software development group project 
+                    of the team Terabyte.
+                    This application takes surrounding data using users 
+                    mobile camera and predicts the most appropriate furniture
+                     to the surrounding and display them in an AR environment.
+                     <br><br>
+                    In the project I was responsible for the initial UI design 
+                    of the app and the front-end development.
+                    To develop the front-end of this app we used java with 
+                    android studio IDE and Google ARCore library for AR placement.
+                </p>
+                <button>Read More</button>
+            </div>
+        </div>
+
+        <div class="case_studies">
+            <h1>Case Studies</h1>
+            <div class="cs_container">
+
+                <div class="case">
+                    <div class="case_image"></div>
+                    <h4>Attic Mobile App</h4>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. 
+                        Proin bibendum porta imperdiet.
+                    </p>
+                </div>
+                <div class="case">
+                    <div class="case_image"></div>
+                    <h4>Attic Mobile App</h4>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. 
+                        Proin bibendum porta imperdiet.
+                    </p>
+                </div>
+                <div class="case">
+                    <div class="case_image"></div>
+                    <h4>Attic Mobile App</h4>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipiscing elit. 
+                        Proin bibendum porta imperdiet.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- web development -->
+    <div class="web_dev_container">
+        <div class="web_screen">
+            <h1>Web Development</h1>
+            <p>I have used my design skillset into action by 
+                developing static and dynamic web applications.<br>
+                Here are some of my sample web sites created using
+                 HTML, CSS , JavaScript and JQuerry. For some I have
+                  used CSS frameworks like bootstrap and CSS 
+                  preprocessors like SASS.<br><br>
+                
+                Also I've used Angular and React to create web 
+                applications
+            </p>
+            <div class="web_dev_inner">
+                <div class="website">
+
+                </div>
+                <div class="website">
+                    
+                </div>
+                <div class="website">
+                    
+                </div>
+                <div class="website">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- design gallery -->
+    <div class="gallery_main">
+        <div class="gallery_heading">
+            <h1>DESIGN<br><span>GALLERY</span></h1>
+        </div>
+        <div class="gallery_inner">
+
+        </div>
+    </div>
+
+
+    <!-- contact form -->
+
+    <div class="contact_container">
+
+        <div class="contact_header">
+            <h1>Contact</h1>
+            <div class="SM_icon_container">
+                <img src="images/logo_youtube.png" alt="youtube" />
+                <img src="images/logo_fb.png" alt="facebook" />
+                <img src="images/logo_twitter.png" alt="twitter" />
+                <img src="images/logo_linkedin.png" alt="linkedin" />
+                <img src="images/logo_instagram.png" alt="instagram" />
+            </div>
+        </div>
+        <div class="contact_body">
+            <div class="contact_form">
+                <form action="https://formspree.io/f/moqprjjw" method="POST">
+                    <label>
+                        Email:<br>
+                        <input type="text" name="_replyto">
+                    </label>
+                    <br>
+                    <label>
+                        Message:<br>
+                        <textarea name="message"></textarea>
+                    </label>
+                    <br>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <div class="contact_details">
+                <div class="contact_info">
+                    <h3>Contact Information</h3>
+                    <p>Email - dondimalgallage@gmail.com</p>
+                    <p>Mobile No - +94 77456 4321</p>
+                </div>
+                <div class="featured">
+                    <h3>Featured Social Media Posts</h3>
+                    <div class="featured_post" id="post_container">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="cursor.js"></script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+.web_dev_container{
+    background: rgb(173,110,255);
+    background: linear-gradient(304deg, rgba(173,110,255,0.1) 0%, rgba(125,248,203,0.1) 100%);
+    width: 100vw;
+    height: 100vh;
+    /* margin: 20vh 0vh; */
+    color: #6F2386;
+    box-sizing: border-box;
+}
+
+.web_screen{
+    background: url(images/background03.png) 50% 50% no-repeat;
+    background-size:100% 100%;
+    height: 100%;
+    width: 100%;
+    padding: 20vh 10vw;
+    box-sizing: border-box;
+}
+
+.web_dev_container h1{
+    font-weight: 200;
+}
+.web_dev_container p{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.web_dev_inner{
+    display: flex;
+}
+.web_dev_inner .website{
+    height: 40vh;
+    width:15vw;
+    box-shadow: 1px 1px 10px 0px rgb(214, 214, 214);
+    margin: auto;
+    margin-top: 7vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
