@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="navigation_content.css">
     <link rel="stylesheet" href="home.css">
     <link rel="stylesheet" href="scrollBar.css">
-    <link rel="stylesheet" href="cursor.css">
+    <!-- <link rel="stylesheet" href="cursor.css"> -->
     <link rel="stylesheet" href="skills.css">
     <link rel="stylesheet" href="projects.css">
     <link rel="stylesheet" href="web_dev.css">
@@ -23,13 +23,13 @@
     <script src="navigation.js"></script>
     <script src="anime.min.js"></script>
     <script src="side_nav.js"></script>
-    
 </head>
+
 <body onscroll="navMove()">
 
     <!-- cursor -->
 
-    <div class="cursor"></div>
+    <!-- <div class="cursor"></div> -->
 
     <!-- hamburger menu navigation -->
     <div id="top">
@@ -132,7 +132,7 @@
         <div class="skills_inner_container">
             <h1>What I have improved my skills in,</h1>
             <div class="skills_icon_container">
-                <div class="row_01">
+                <div class="row_01" data-aos="fade-right">
                     <img src="images/java.png" alt="java">
                     <img src="images/python.png" alt="java">
                     <img src="images/html.png" alt="java">
@@ -140,7 +140,7 @@
                     <img src="images/js.png" alt="java">
                     <img src="images/flutter.png" alt="java">
                 </div>
-                <div class="row_02">
+                <div class="row_02" data-aos="fade-left">
                     <img src="images/react.png" alt="java">
                     <img src="images/ps.png" alt="java">
                     <img src="images/ai.png" alt="java">
@@ -180,7 +180,7 @@
             <h1>Case Studies</h1>
             <div class="cs_container">
 
-                <div class="case">
+                <div class="case" data-aos="zoom-in-up">
                     <div class="case_image"></div>
                     <h4>Attic Mobile App</h4>
                     <p>Lorem ipsum dolor sit amet, 
@@ -188,7 +188,7 @@
                         Proin bibendum porta imperdiet.
                     </p>
                 </div>
-                <div class="case">
+                <div class="case" data-aos="zoom-in-up">
                     <div class="case_image"></div>
                     <h4>Attic Mobile App</h4>
                     <p>Lorem ipsum dolor sit amet, 
@@ -196,7 +196,7 @@
                         Proin bibendum porta imperdiet.
                     </p>
                 </div>
-                <div class="case">
+                <div class="case" data-aos="zoom-in-up">
                     <div class="case_image"></div>
                     <h4>Attic Mobile App</h4>
                     <p>Lorem ipsum dolor sit amet, 
@@ -333,6 +333,10 @@
         </ul>
     </div>
 
-    <script src="cursor.js"></script>
+    <!-- <script src="cursor.js"></script> -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

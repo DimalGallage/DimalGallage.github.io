@@ -16,8 +16,8 @@
     border-radius: 50%;
     border: none;
     background: #ffffff;
-    box-shadow: inset 5px 5px 9px #c9c9c9, 
-                inset -5px -5px 9px #ffffff;
+    box-shadow:  5px 5px 9px #c9c9c9 ;
+                 /* -5px -5px 9px #ffffff; */
     margin: 5px 0px;
     transition: 0.1s all ease-in;
     cursor: none;
@@ -29,22 +29,27 @@
 #navBtn_home{
     background: url(images/home.png) 50% 50% no-repeat;
     background-size: 30%;
+    background-color: #ffffff;
 }
 #navBtn_skills{
     background: url(images/skill.png) 50% 50% no-repeat;
     background-size: 30%;
+    background-color: #ffffff;
 }
 #navBtn_projects{
     background: url(images/project.png) 50% 50% no-repeat;
     background-size: 30%;
+    background-color: #ffffff;
 }
 #navBtn_gallery{
     background: url(images/gallery.png) 50% 50% no-repeat;
     background-size:30%;
+    background-color: #ffffff;
 }
 #navBtn_contact{
     background: url(images/contact.png) 50% 50% no-repeat;
     background-size: 30%;
+    background-color: #ffffff;
 }
 #navBtn_home:hover,#navBtn_skills:hover,#navBtn_projects:hover,#navBtn_gallery:hover,#navBtn_contact:hover{
     background-size: 40%;

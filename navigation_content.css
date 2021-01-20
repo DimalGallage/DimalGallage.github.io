@@ -74,6 +74,7 @@ body{
 }
 .content_pane ul a{
     text-decoration: none;
+    color: #712386;
 }
 .content_pane ul li:hover{
     -webkit-text-fill-color:transparent;
