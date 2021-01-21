@@ -2,7 +2,7 @@
     background: rgb(173,110,255);
     background: linear-gradient(298deg, rgba(173,110,255,1) 0%, rgba(125,248,203,1) 100%);
     width: 70vw;
-    height: 90vh;
+    /* height: 90vh; */
     margin: auto;
     padding: 10vh;
     box-sizing: border-box;
