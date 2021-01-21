@@ -36,5 +36,14 @@
     margin-top: 7vh;
     background-color: white;
     border-radius: 10px;
+    transition: 0.1s all ease-in;
+}
+
+#web01{
+    background: url(./images/roomie_card.png)50% 50% no-repeat;
+    background-size: 100%;
+}
+#web01:hover{
+    background-size:130%;
 }
 

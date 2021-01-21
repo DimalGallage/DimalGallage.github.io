@@ -1,0 +1,270 @@
+{
+    "properties":[
+        {
+            "id":"prop1",
+            "heading":"Victorian Style House",
+			"type":"House",
+            "bedrooms":3,
+			"price":650000,
+			"tenure":"Freehold",
+			"description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+            "location":"London",
+            "address":"221/B Baker Street, London",
+			"picture":"images/prop1pic1small.jpg",
+            "url":"properties/prop1.html?id=prop1",
+            "pictureFolderURL":"images/propImages/prop1/",
+            "added": {
+                "month":"March",
+                "day":12,
+                "year":2018
+            }
+        },
+		{
+            "id":"prop2",
+            "heading":"High Valley Housing Scheme Property",
+			"type":"Flat",
+            "bedrooms":2,
+			"price":299995,
+			"tenure":"Freehold",
+			"description":"This substantial HMO property has accommodation laid out over three floors and offers a fantastic investment opportunity. Featuring eight bedrooms within the main house, there is a separate annex/apartment with two further bedrooms and a commercial let on the ground floor. The whole development produces an approximate income of £65,000 per annum with the shop held on a commercial lease. For details on potential future income and current tenancy lengths please contact the office. Located just a stone's throw from Acomb shops, the property has good links with the city centre and easy access to the outer ring road.",
+            "location":"Liverpool",
+            "address":"123 Front Street, Acomb , Liverpool",
+			"picture":"images/prop2pic1small.jpg",
+            "url":"properties/prop1.html?id=prop2",
+            "pictureFolderURL":"images/propImages/prop2/",
+            "added": {
+                "month":"September",
+                "day":14,
+                "year":2018
+            }
+        },
+        {
+            "id":"prop3",
+            "heading":"SykRise Apartment Complex",
+            "type":"Apartment",
+            "bedrooms":4,
+			"price":700000,
+			"tenure":"Rent",
+			"description":"Listed Grade II, 73 The Mount is an impressive Regency town house situated in the very heart of The Mount, itself the main south westerly approach to the city centre and lying close to the large public open space of the Knavesmire and the renowned York racecourse. The main line railway station is within easy walking distance and from where there are regular services to London (King’s Cross), Newcastle and Edinburgh as well as to Leeds and Harrogate.",
+            "location":"London",
+            "address":"1213 Front Street, Acomb , London",
+			"picture":"images/prop1pic1small.jpg",
+            "url":"properties/prop1.html?id=prop3",
+            "pictureFolderURL":"images/propImages/prop3/",
+            "added": {
+                "month":"March",
+                "day":12,
+                "year":2018
+            }
+        },
+        {
+            "id":"prop4",
+            "heading":"Modern Open Space Styled Apartment",
+			"type":"Apartment",
+            "bedrooms":4,
+			"price":200000,
+			"tenure":"Rent",
+			"description":"Dating from around 1830, the property is constructed of attractive mellow brick elevations under a slate roof with an impressive entrance doorcase, sash windows with dressed stone sills and brick-on-end lintels. Internally, many period features remain to include high ceilings, moulded plasterwork cornices, period fireplaces, ceiling roses and door architraves whilst the property’s signature feature is perhaps the impressive sweeping staircase which links all three principal storeys and makes for a great feeling of light and spaciousness to the centre of the property.",
+            "location":"York",
+            "address":"1011 Front Street, Acomb , York",
+			"picture":"images/prop1pic1small.jpg",
+            "url":"properties/prop1.html?id=prop4",
+            "pictureFolderURL":"images/propImages/prop4/",
+            "added": {
+                "month":"March",
+                "day":12,
+                "year":2018
+            }
+        },
+        {
+            "id":"prop5",
+            "heading":"Classic 2 Story House",
+			"type":"House",
+            "bedrooms":5,
+			"price":900000,
+			"tenure":"Freehold",
+			"description":"An ample garden lies to the rear of the house and is approached across a flagged terrace adjacent to which is a specimen Pear tree. Beyond is a good town garden bounded respectively by a brick wall and boarded fencing adjoining which are Lavendar, Clematis and Box. At the far end is a stone flagged and brick sett seating area centred around a large Laurel making for a most pleasant and sheltered summer seating and al fresco dining area. Behind adjoining trelliswork is a car parking area for three cars with access to Park Street.",
+            "location":"Manchester",
+            "address":"789 Front Street, Acomb , Manchester",
+			"picture":"images/prop1pic1small.jpg",
+            "url":"properties/prop1.html?id=prop5",
+            "pictureFolderURL":"images/propImages/prop5/",
+            "added": {
+                "month":"March",
+                "day":12,
+                "year":2018
+            }
+        },
+        {
+            "id":"prop6",
+            "heading":"2 Bedroom Apartment in Uptown",
+			"type":"House",
+            "bedrooms":2,
+			"price":650000,
+			"tenure":"Rent",
+			"description":"A stunning penthouse, three bedroom apartment featuring stylish L shaped living/ kitchen/ dining area leading to an impressive balcony. This apartment also benefits from three spacious double bedrooms with the largest opening up onto an impressive balcony. This apartment also includes 2 parking spaces and is located in central York.",
+            "location":"Orpington",
+            "address":"132 Front Street, Acomb , Oprington",
+			"picture":"images/prop1pic1small.jpg",
+            "url":"properties/prop1.html?id=prop6",
+            "pictureFolderURL":"images/propImages/prop6/",
+            "added": {
+                "month":"March",
+                "day":12,
+                "year":2018
+            }
+        },
+        {
+            "id":"prop7",
+            "heading":"Outdoor Garden House in Bristol",
+			"type":"House",
+            "bedrooms":1,
+			"price":850000,
+			"tenure":"Rent",
+			"description":"Sensitively and sustainably designed to sit comfortably within its historic setting, Hudson Quarter has been created by leading architects, interior and landscape designers to become and tranquil and harmonious destination. Hudson Quarter represents a unique and future-proofed opportunity to invest in this evolving City and will be a key part of York's evolution and future aspirations - and somewhere exceptional indeed to live.",
+            "location":"Bristol",
+            "address":"234 Front Street, Acomb , Bristol",
+			"picture":"images/prop1pic1small.jpg",
+            "url":"properties/prop1.html?id=prop7",
+            "pictureFolderURL":"images/propImages/prop7/",
+            "added": {
+                "month":"March",
+                "day":12,
+                "year":2018
+            }
+        },
+        {
+            "id":"prop8",
+            "heading":"Sweeny luxury Properties",
+			"type":"Apartment",
+            "bedrooms":2,
+			"price":700000,
+			"tenure":"Freehold",
+			"description":"Located at the rear of the property is a superb sitting room stretching to approximately 35 ft in length creating the ideal family environment. The sitting room features a quarried Yorkshire stone hearth with surround and mantle. The fireplace can accommodate a solid fuel burning cast iron stove but also benefits from an electric point as well. In addition, at the rear of the sitting room is a further chimney if required. Three separate sets of French doors lead out on the gardens beyond and the sitting room features twin double glazed conservation rooflights as well as ceiling spotlights and exposed beams. There is underfloor heating throughout beneath engineered oak flooring and the sitting room benefits further from television aerial point and recess ceiling downlighters.",
+            "location":"Orpington",
+            "address":"33/2 Front Street, Acomb , Oprington",
+			"picture":"images/prop1pic1small.jpg",
+            "url":"properties/prop1.html?id=prop8",
+            "pictureFolderURL":"images/propImages/prop8/",
+            "added": {
+                "month":"March",
+                "day":12,
+                "year":2018
+            }
+        },
+        {
+            "id":"prop9",
+            "heading":"6 Bedroom end of Terrace House for Sale",
+			"type":"House",
+            "bedrooms":1,
+			"price":650000,
+			"tenure":"Sale",
+			"description":"The kitchen includes a built-in Miele electric oven and grill with separate Miele microwave and coffee maker. There is a separate 5 point Miele induction hob unit with brushed stainless steel extractor canopy above as well as an integrated Miele automatic dishwasher and American style fridge-freezer unit. There is a double fronted larder cupboard with the central serving island being a single granite worktop with breakfast bar. There is limestone tile flooring with underfloor heating and an archway leads through into the breakfast room creating open plan accommodation. The breakfast room also includes a handcrafted, bespoke dresser in addition to a further range of built in base units with second fridge unit and granite worktop. There are recess ceiling downlighters in addition to further limestone tile flooring with underfloor heating.",
+            "location":"London",
+            "address":"8/2 Front Street, Acomb , London",
+			"picture":"images/prop1pic1small.jpg",
+            "url":"properties/prop1.html?id=prop9",
+            "pictureFolderURL":"images/propImages/prop9/",
+            "added": {
+                "month":"March",
+                "day":12,
+                "year":2018
+            }
+        },
+        {
+            "id":"prop10",
+            "heading":"3 Bedroom Detached House for Sale",
+			"type":"House",
+            "bedrooms":3,
+			"price":680000,
+			"tenure":"Sale",
+			"description":"A stunning conversion of former industrial workshop buildings providing a significant 4 bedroom property evocative of a New York Loft Apartment with in excess of 4,000 square feet of space; including a large roof garden, garage/workshop and plentiful secure parking. Celebrating the drama of this former industrial space, this beautifully remodelled and versatile workshop conversion is arranged over 2/3 floors with over 3,200 square feet of beautifully appointed living space and a further 1,000 square feet of covered parking/leisure/garage/workshop area.",
+            "location":"Leeds",
+            "address":"88/3 Front Street, Acomb , Leeds",
+			"picture":"images/prop1pic1small.jpg",
+            "url":"properties/prop1.html?id=prop10",
+            "pictureFolderURL":"images/propImages/prop10/",
+            "added": {
+                "month":"March",
+                "day":12,
+                "year":2018
+            }
+        },
+        {
+            "id":"prop11",
+            "heading":"3 Bedroom Apartment for Sale",
+			"type":"Apartment",
+            "bedrooms":3,
+			"price":670000,
+			"tenure":"Sale",
+			"description":"The Knoll is a substantial house and much-loved family home available for sale for the first time in more than twenty years. Originally commissioned and owned by a Rowntree Director, its lavish turn of the century reception rooms has exceptional fireplaces believed to have a York Railways connection. The Knoll is an outstanding property set in nearly an acre of mature gardens, and it undoubtedly offers an exciting opportunity to a family requiring rapid connections to the city centre, railway station and motorway network.",
+            "location":"York",
+            "address":"221/B Front Street, Acomb , York",
+			"picture":"images/prop1pic1small.jpg",
+            "url":"properties/prop1.html?id=prop11",
+            "pictureFolderURL":"images/propImages/prop11/",
+            "added": {
+                "month":"March",
+                "day":12,
+                "year":2018
+            }
+        },
+        {
+            "id":"prop12",
+            "heading":"6 Bedroom Terraced House for rent",
+			"type":"House",
+            "bedrooms":6,
+			"price":990000,
+			"tenure":"Rent",
+			"description":"This exceptional property offers a sympathetic blend of period and modern features enhanced by the addition of a spacious contemporary extension.The reception hall boasts an attractive mosaic tiled floor and original wall cupboard together with a staircase leading to the first floor. Off the hallway lies a snug with original fireplace and sash window, a good sized study (or ground floor bedroom), a large utility area with an enclosed second staircase and rear porch. To the rear of the extension lies a useful boot room, ground floor WC, shower room and a storage area.",
+            "location":"Oxford",
+            "address":"8/A Front Street, Acomb , Oxford",
+			"picture":"images/prop1pic1small.jpg",
+            "url":"properties/prop1.html?id=prop12",
+            "pictureFolderURL":"images/propImages/prop12/",
+            "added": {
+                "month":"March",
+                "day":12,
+                "year":2018
+            }
+        },
+        {
+            "id":"prop13",
+            "heading":"Victorian Style House",
+			"type":"House",
+            "bedrooms":1,
+			"price":50000,
+			"tenure":"Rent",
+			"description":"The property, with its wonderful exposed beams, has undergone extensive improvements and has been carefully and lovingly restored during the current vendor's ownership. The extensive accommodation on offer is adaptable and flows well to combine both family and more formal areas, creating a real sense of spaciousness and plenty of entertaining areas. The superb open plan kitchen is very well equipped and functional. It features built in appliances, handmade units and breakfast bar and leads onto the dining and seating area, which has been carefully designed with family and modern day living in mind.",
+            "location":"Liverpool",
+            "address":"2 Front Street, Acomb , Liverpool",
+			"picture":"images/prop1pic1small.jpg",
+            "url":"properties/prop1.html?id=prop13",
+            "pictureFolderURL":"images/propImages/prop13/",
+            "added": {
+                "month":"March",
+                "day":12,
+                "year":2018
+            }
+        },
+        {
+            "id":"prop14",
+            "heading":"Tiny Studio Apartment",
+			"type":"Studio",
+            "bedrooms":0,
+			"price":50000,
+			"tenure":"Freehold",
+			"description":"New build completed in early 2020, Fairview House is the perfect family home. The property is phenomenal to say the least and boasts character despite being newly designed and built. When entering the property, you can immediately feel the quality of the fixtures and fittings that have been used to create such a high quality, beautiful home. The downstairs has underfloor heating running throughout as well as porcelain tiles that flow seamlessly through the hallway, dining room, Kitchen breakfast room and utility.",
+            "location":"Chester",
+            "address":"882 Front Street, Acomb , Chester",
+			"picture":"images/prop1pic1small.jpg",
+            "url":"properties/prop1.html?id=prop14",
+            "pictureFolderURL":"images/propImages/prop14/",
+            "added": {
+                "month":"March",
+                "day":12,
+                "year":2018
+            }
+        }
+    ]
+}

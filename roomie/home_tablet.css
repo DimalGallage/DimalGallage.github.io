@@ -1,0 +1,47 @@
+@media only screen and (max-width: 800px) {
+
+    .header_content input[type=search]{
+        width: 60vw;
+    }
+
+    .button_container{
+        grid-template-columns: auto auto ;
+        width: 80vw;
+        margin: auto;
+        margin-top: 20px;
+        margin-left: 150px;
+    }
+    .button_block button{
+        height: 50px;
+        width: 50px;
+        box-shadow:  5px 5px 5px #b0b0b0, 
+        -5px -5px 5px #ffffff;
+    }
+    .button_block:hover  button{
+        box-shadow:inset 5px 5px 5px #b0b0b0, 
+        inset -5px -5px 5px #ffffff;
+    }
+
+    .filter_container{
+        margin-left: 100px;
+    }
+    .listing_container .list_image{
+        height: 350px;
+    }
+    .listing_container .decription{
+        display: none;
+    }
+    .contact_seller{float: none;}
+    .add_to_fav,.read_more,.contact_seller{
+        margin-top: 10px;
+    }
+
+
+    #favourite_menu h3{display: none;}
+    #favourite_menu p{display: none;}
+
+    .ui-draggable-dragging .list_image,.ui-draggable-dragging{
+        width: 100px;
+        height: 100px;
+    }
+}
