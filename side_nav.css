@@ -20,7 +20,7 @@
                  /* -5px -5px 9px #ffffff; */
     margin: 5px 0px;
     transition: 0.1s all ease-in;
-    cursor: none;
+    cursor: pointer;
 }
 .side_nav_container button:focus{
     outline: none;
