@@ -54,3 +54,10 @@
 #navBtn_home:hover,#navBtn_skills:hover,#navBtn_projects:hover,#navBtn_gallery:hover,#navBtn_contact:hover{
     background-size: 40%;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .side_nav_container{
+        display: none;
+    }
+}

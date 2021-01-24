@@ -26,6 +26,9 @@
     width: 100%;
     margin-top: 20%;
 }
+#project_img_hidden{
+    display: none;
+}
 .main_project_content h1{
     margin: 10% 0%;
 }
@@ -82,4 +85,45 @@
     border-radius: 10px;
     height:40vh;
     width:100%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .projects_container{
+        width: 100vw;
+        border-radius: 0%;
+    }
+    .main_project_container{
+        display: block;
+    }
+    #project_img_hidden{
+        display: block;
+    }
+    #project_main_img{
+        display:none;
+    }
+    .main_project_image , .main_project_content{
+        width: 80%;
+        padding: 0%;
+        margin: auto;
+    }
+    .main_project_content{
+        padding-top: 7vh;
+    }
+
+    .case_studies{
+        padding: 8vw;
+    }
+    .case_studies h1{
+        text-align: left;
+        font-size: 30px;
+    }
+    .cs_container{
+        display: block;
+    }
+    .case{
+        width: 90%;
+        padding:0%;
+        margin-bottom: 20px;
+    }
 }

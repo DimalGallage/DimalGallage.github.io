@@ -28,6 +28,9 @@
 .web_dev_inner{
     display: flex;
 }
+.web_dev_inner a{
+    margin: auto;
+}
 .web_dev_inner .website{
     height: 40vh;
     width:15vw;
@@ -47,3 +50,21 @@
     background-size:130%;
 }
 
+
+
+
+@media only screen and (max-width: 600px) {
+    .web_dev_inner{
+        display: block;
+        margin-top: 5vh;
+    }
+    .web_dev_inner .website{
+        height:10vh;
+        width:80vw;
+        margin:2vh 0vw;
+    }
+
+    .web_dev_container{
+        padding-bottom: 10vh;
+    }
+}

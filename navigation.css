@@ -90,6 +90,13 @@
         display: none;
     }
     .header_container{
-        padding-top: 5vh;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+
+    .header_container{
+        /* position: sticky;
+        top: 0;
+        z-index: 100; */
     }
 }

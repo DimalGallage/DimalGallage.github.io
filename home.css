@@ -105,3 +105,30 @@ span{
 .SM_icon_container img:hover{
     transform: translateY(-10px);
 }
+
+
+@media only screen and (max-width: 600px) {
+    .home_container{padding: 0vw 10vw;}
+    .home_inner_container{display:block;}
+    .home_content_container{
+        width:100%;
+    }
+    .home_container h1{
+        font-size: 15vw;
+        width: 100%;
+    }
+    .heading_container{
+        margin:0vh 0vw 5vh 0vw;
+    }
+    .home_content_container p{
+        font-size: 12px;
+    }
+    .home_content_container button{
+        width: 120px;
+        margin-top: 5vh;
+    }
+
+    .image_container{
+        display: none;
+    }
+}
