@@ -21,7 +21,7 @@
 .skills_inner_container .row_01, .skills_inner_container .row_02{
     width: 100%;
     /* border: 1px solid; */
-    height: 100px;
+    /* height: 100px; */
     text-align: center;
     margin: 0%;
 }
@@ -51,8 +51,9 @@
     .skills_inner_container img{
         width: 60px;
         height: 60px;
-        margin:0vw 3vw;
+        margin:0vw 2px;
         /* border: 1px solid; */
+        opacity: 1;
     }
     .skills_inner_container .row_01, .skills_inner_container .row_02{
         /* border: 1px solid; */
