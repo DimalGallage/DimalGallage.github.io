@@ -69,7 +69,7 @@
     border: none;
     color: hsl(286, 59%, 33%);
     transition: 0.1s all ease-in;
-    cursor: none;
+    cursor: pointer;
 }
 #download{
     background-color: #6F2386;

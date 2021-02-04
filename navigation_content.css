@@ -97,6 +97,7 @@ body{
     color: #712386;
     font-weight: 300;
     font-size: 15px;
+    text-decoration: none;
 }
 .download button img{
     transform-origin: center;
