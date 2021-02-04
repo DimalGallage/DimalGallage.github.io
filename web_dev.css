@@ -2,10 +2,11 @@
     background: rgb(173,110,255);
     background: linear-gradient(304deg, rgba(173,110,255,0.1) 0%, rgba(125,248,203,0.1) 100%);
     width: 100vw;
-    height: 100vh;
+    /* height: 100vh; */
     /* margin: 20vh 0vh; */
     color: #6F2386;
     box-sizing: border-box;
+    /* border: 1px solid; */
 }
 
 .web_screen{
@@ -36,10 +37,13 @@
     width:15vw;
     box-shadow: 1px 1px 10px 0px rgb(214, 214, 214);
     margin: auto;
+    /* float: left;
+    margin-left:30px; */
     margin-top: 7vh;
     background-color: white;
     border-radius: 10px;
     transition: 0.1s all ease-in;
+    
 }
 
 #web01{
@@ -59,7 +63,7 @@
         margin-top: 5vh;
     }
     .web_dev_inner .website{
-        height:10vh;
+        height:20vh;
         width:80vw;
         margin:2vh 0vw;
     }
@@ -67,4 +71,5 @@
     .web_dev_container{
         padding-bottom: 10vh;
     }
+    
 }

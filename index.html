@@ -23,6 +23,7 @@
     <script src="navigation.js"></script>
     <script src="anime.min.js"></script>
     <script src="side_nav.js"></script>
+    <script src="gallery.js"></script>
 </head>
 
 <body onscroll="navMove()">
@@ -218,40 +219,42 @@
 
 
     <!-- web development -->
-    <div class="web_dev_container" id="web_dev_container">
-        <div class="web_screen">
-            <h1>Web Development</h1>
-            <p>I have used my design skillset into action by 
-                developing static and dynamic web applications.<br>
-                Here are some of my sample web sites created using
-                 HTML, CSS , JavaScript and JQuerry. For some I have
-                  used CSS frameworks like bootstrap and CSS 
-                  preprocessors like SASS.<br><br>
-                
-                Also I've used Angular and React to create web 
-                applications
-            </p>
-            <div class="web_dev_inner">
-                <a href="./roomie/home.html">
-                    <div class="website" id="web01" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+    <div class="web_main">
+        <div class="web_dev_container" id="web_dev_container">
+            <div class="web_screen">
+                <h1>Web Development</h1>
+                <p>I have used my design skillset into action by 
+                    developing static and dynamic web applications.<br>
+                    Here are some of my sample web sites created using
+                    HTML, CSS , JavaScript and JQuerry. For some I have
+                    used CSS frameworks like bootstrap and CSS 
+                    preprocessors like SASS.<br><br>
+                    
+                    Also I've used Angular and React to create web 
+                    applications
+                </p>
+                <div class="web_dev_inner">
+                    <a href="./roomie/home.html">
+                        <div class="website" id="web01" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
 
-                    </div>
-                </a>
-                <a href="">
-                    <div class="website" id="web02" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="website" id="web02" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
 
-                    </div>
-                </a>
-                <a href="">
-                    <div class="website" id="web03" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="website" id="web03" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
 
-                    </div>
-                </a>
-                <a href="">
-                    <div class="website" id="web04" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="website" id="web04" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
 
-                    </div>
-                </a>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -259,56 +262,61 @@
 
     <!-- design gallery -->
     <div class="gallery_main" id="design_gallery">
-        <div class="gallery_heading">
+        <!-- <div class="gallery_heading">
             <h1>DESIGN<br><span>GALLERY</span></h1>
-        </div>
+        </div> -->
         <div class="gallery_inner">
-
+            <div id="gallery_img_01" class="panel"></div>
+            <div id="gallery_img_02" class="panel"></div>
+            <div id="gallery_img_03" class="panel"></div>
+            <div id="gallery_img_04" class="panel"></div>
         </div>
     </div>
 
 
     <!-- contact form -->
 
-    <div class="contact_container" id="contact_container">
+    <div class="contact_main">
+        <div class="contact_container" id="contact_container">
 
-        <div class="contact_header">
-            <h1>Contact</h1>
-            <div class="SM_icon_container">
-                <a href="https://github.com/DimalGallage"><img src="images/github.png" alt="github" /></a>
-                <a href="https://dribbble.com/Dimal_Gallage"><img src="images/dribble.png" alt="bribble" /></a>
-                <a href="https://www.facebook.com/dimal.gallage.1"><img src="images/logo_fb.png" alt="facebook" /></a>
-                <a href="https://twitter.com/DDSGallage"><img src="images/logo_twitter.png" alt="twitter" /></a>
-                <a href="https://www.linkedin.com/in/d-d-s-gallage-1a54a91a0/"><img src="images/logo_linkedin.png" alt="linkedin" /></a>
-                <a href="https://www.instagram.com/ddsgallage/"><img src="images/logo_instagram.png" alt="instagram" /></a>
-            </div>
-        </div>
-        <div class="contact_body">
-            <div class="contact_form">
-                <form action="https://formspree.io/f/moqprjjw" method="POST">
-                    <label>
-                        Email:<br>
-                        <input type="email" name="_replyto" required>
-                    </label>
-                    <br>
-                    <label>
-                        Message:<br>
-                        <textarea name="message" required></textarea>
-                    </label>
-                    <br>
-                    <button type="submit">Send</button>
-                </form>
-            </div>
-            <div class="contact_details">
-                <div class="contact_info">
-                    <h3>Contact Information</h3>
-                    <p>Email - dondimalgallage@gmail.com</p>
-                    <p>Mobile No - +94 77456 4321</p>
+            <div class="contact_header">
+                <h1>Contact</h1>
+                <div class="SM_icon_container">
+                    <a href="https://github.com/DimalGallage"><img src="images/github.png" alt="github" /></a>
+                    <a href="https://dribbble.com/Dimal_Gallage"><img src="images/dribble.png" alt="bribble" /></a>
+                    <a href="https://www.facebook.com/dimal.gallage.1"><img src="images/logo_fb.png" alt="facebook" /></a>
+                    <a href="https://twitter.com/DDSGallage"><img src="images/logo_twitter.png" alt="twitter" /></a>
+                    <a href="https://www.linkedin.com/in/d-d-s-gallage-1a54a91a0/"><img src="images/logo_linkedin.png" alt="linkedin" /></a>
+                    <a href="https://www.instagram.com/ddsgallage/"><img src="images/logo_instagram.png" alt="instagram" /></a>
                 </div>
-                <div class="featured">
-                    <h3>Featured Social Media Posts</h3>
-                    <div class="featured_post" id="post_container">
+            </div>
+            <div class="contact_body">
+                <div class="contact_form">
+                    <form action="https://formspree.io/f/moqprjjw" method="POST">
+                        <label>
+                            Email:<br>
+                            <input type="email" name="_replyto" required>
+                        </label>
+                        <br>
+                        <label>
+                            Message:<br>
+                            <textarea name="message" required></textarea>
+                        </label>
+                        <br>
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+                <div class="contact_details">
+                    <div class="contact_info">
+                        <h3>Contact Information</h3>
+                        <p>Email - dondimalgallage@gmail.com</p>
+                        <p>Mobile No - +94 77456 4321</p>
+                    </div>
+                    <div class="featured">
+                        <h3>Featured Social Media Posts</h3>
+                        <div class="featured_post" id="post_container">
 
+                        </div>
                     </div>
                 </div>
             </div>

@@ -88,7 +88,7 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 940px) {
     .projects_container{
         width: 100vw;
         border-radius: 0%;
