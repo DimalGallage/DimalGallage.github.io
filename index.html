@@ -45,7 +45,7 @@
                   </button>
                 </div>
                 <ul>
-                  <a href="#top" onclick="moveOut()"><li>Home</li></a>
+                  <a href="#top" onclick="moveOut()"><li>About Me</li></a>
                   <a href="#skills_container" onclick="moveOut()"><li>Skills</li></a>
                   <a href="#projects_container" onclick="moveOut()"><li>Projects</li></a>
                   <a href="#design_gallery" onclick="moveOut()"><li>Gallery</li></a>
@@ -278,9 +278,48 @@
 
     <!-- contact form -->
 
-    <div class="contact_main">
-        <div class="contact_container" id="contact_container">
+    <div class="contact_main" id="contact_container">
+        <div class="form_container">
+            <h3>Contact</h3>
+            <div class="contact_form">
+                <form action="https://formspree.io/f/moqprjjw" method="POST">
+                    <label>
+                        Email:<br>
+                        <input type="email" name="_replyto" required>
+                    </label>
+                    <br>
+                    <label>
+                        Message:<br>
+                        <textarea name="message" required></textarea>
+                    </label>
+                    <br>
+                    <button type="submit">Send</button>
+                    <button type="reset">Clear</button>
+                </form>
+            </div>
+        </div>
+        <div class="detail_container">
+            <div class="SM_icon_container_contact">
+                <a href="https://github.com/DimalGallage"><img src="images/github.png" alt="github" /></a>
+                <a href="https://dribbble.com/Dimal_Gallage"><img src="images/dribble.png" alt="bribble" /></a>
+                <a href="https://www.facebook.com/dimal.gallage.1"><img src="images/logo_fb.png" alt="facebook" /></a>
+                <a href="https://twitter.com/DDSGallage"><img src="images/logo_twitter.png" alt="twitter" /></a>
+                <a href="https://www.linkedin.com/in/d-d-s-gallage-1a54a91a0/"><img src="images/logo_linkedin.png" alt="linkedin" /></a>
+                <a href="https://www.instagram.com/ddsgallage/"><img src="images/logo_instagram.png" alt="instagram" /></a>
+            </div>
+            <div class="contact_details">
+                <div class="contact_info">
+                    <h3>Contact Information</h3>
+                    <p>Email - dondimalgallage@gmail.com</p>
+                    <p>Mobile No - +94 77456 4321</p>
+                    <p>Address - 88/3 Kurunduwatte Road, Pitakotte, Colombo , Sri Lanka</p>
+                </div>
+            </div>
+            <img class="contact_image" src="images/contact_background.png" alt="">
 
+
+        </div>
+        <!-- <div class="contact_container" id="contact_container">
             <div class="contact_header">
                 <h1>Contact</h1>
                 <div class="SM_icon_container">
@@ -322,7 +361,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
 
 
