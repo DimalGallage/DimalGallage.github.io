@@ -233,3 +233,43 @@ form textarea{
 .form_container button:focus{
     outline: none;
 }
+
+@media only screen and (max-width: 940px) {
+    .contact_main{
+        display: block;
+        padding: 0%;
+        height:fit-content;
+    }
+    .form_container{
+        width: 100%;
+        padding: 5vw;
+    }
+    form textarea,form input{
+        width: 100%;
+    }
+    .detail_container{
+        width: 100%;
+        padding: 5vw;
+    }
+    .detail_container .contact_details{
+        padding: 0px 0px 10vw 0px;
+        /* text-align: center; */
+    }
+    .SM_icon_container_contact{
+        padding: 10vw 0vw;
+        width: 100%;
+    }
+    .SM_icon_container_contact img{
+        position: relative;
+        margin: auto;
+    }
+    .contact_image{
+        display: none;
+        /* position: relative;
+        left: 50vw;
+        right: 50vw;
+        margin: auto; */
+    }
+
+
+} 
