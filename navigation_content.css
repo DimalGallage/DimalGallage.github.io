@@ -29,9 +29,9 @@ body{
     /* border: 1px solid; */
     display: flex;
 }
-.nav_head img{
-    /* border: 1px solid; */
-}
+/* .nav_head img{
+    border: 1px solid;
+} */
 .nav_head button{
     /* float: right; */
     height: 60px;
