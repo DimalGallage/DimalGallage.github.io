@@ -245,7 +245,7 @@ form textarea{
         padding: 5vw;
     }
     form textarea,form input{
-        width: 100%;
+        width: 90%;
     }
     .detail_container{
         width: 100%;
