@@ -5,7 +5,7 @@
     /* border: 1px solid; */
     background: rgb(173,110,255);
     background: linear-gradient(298deg, rgba(173,110,255,1) 0%, rgba(125,248,203,1) 100%);
-    border-top-left-radius: 40vh;
+    /* border-top-left-radius: 40vh; */
     border-bottom-right-radius:20vh;
     border-bottom-left-radius: 20vh;
 }
