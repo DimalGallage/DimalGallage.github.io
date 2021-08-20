@@ -1,6 +1,7 @@
 .caseSudy_main_image{
-    background:url(../static/attic/main.png) 50% 50% no-repeat;
     height: 80vh !important;
+    background-size: cover !important;
+    background-position: 50% 50% !important;
 }
 
 .user_identify_intro{
@@ -21,9 +22,8 @@
 }
 .user_persona_image{
     height: 40vh;
-    background:url(../static/attic/user.jpg) 50% 50% ;
-    background-size: auto 80%;
-    background-repeat: no-repeat;
+    background-size: auto 80% !important;
+    background-repeat: no-repeat !important;
 }
 .user_persona_name p{
     margin-top: 20px !important;
