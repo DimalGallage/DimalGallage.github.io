@@ -1,0 +1,62 @@
+.caseSudy_main_image{
+    background:url(../static/attic/main.png) 50% 50% no-repeat;
+    height: 80vh !important;
+}
+
+.user_identify_intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 1px solid; 
+}
+.user_persona_goals{
+    margin-top: 40px;
+}
+
+
+
+/* user prsona */
+.user_persona{
+    margin-top: 70px !important;
+}
+.user_persona_image{
+    height: 40vh;
+    background:url(../static/attic/user.jpg) 50% 50% ;
+    background-size: auto 80%;
+    background-repeat: no-repeat;
+}
+.user_persona_name p{
+    margin-top: 20px !important;
+}
+.user_persona_col{
+    padding: 50px 0px 0px 30px !important;
+}
+
+@media(max-width:600px){
+    .user_groups_grid{
+        display: block !important;
+    }
+    .user_identify_intro{
+        border-right:none; 
+        margin-bottom: 50px;
+    }
+    .user_empathy_row{
+        display: block;
+    }
+    .user_empathy_col{
+        padding: 30px 0px 30px 0px !important;
+        box-sizing: border-box;
+    }
+
+
+    .user_persona{
+        display: block;
+    }
+    .user_persona_imgCol{
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .user_persona_col{
+        padding: 0px;
+    }
+}
