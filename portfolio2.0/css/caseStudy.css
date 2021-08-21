@@ -32,7 +32,7 @@
     padding: 50px 0px 0px 30px !important;
 }
 
-@media(max-width:600px){
+@media(max-width:900px){
     .user_groups_grid{
         display: block !important;
     }

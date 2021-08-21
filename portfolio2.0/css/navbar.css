@@ -56,7 +56,7 @@
 #navLine2{margin-top: 15px;}
 
 
-@media (max-width:576px){
+@media (max-width:900px){
     .navbar{
         padding: 30px;
     }
