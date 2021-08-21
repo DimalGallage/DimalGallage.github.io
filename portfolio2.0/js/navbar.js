@@ -4,6 +4,5 @@ navLinks.forEach((l) => {
     l.addEventListener('click', () => { 
         const bsCollapse = new bootstrap.Collapse(menuToggle)
         bsCollapse.toggle() 
-    
     })
 })
