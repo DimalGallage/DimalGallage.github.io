@@ -60,3 +60,10 @@
         padding: 0px;
     }
 }
+
+
+.justification{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
