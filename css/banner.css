@@ -26,6 +26,9 @@
     margin-top: 10vh !important;
     height: 50vh !important;
 }
+.caseHeading{
+	font-size: 30px !important;
+}
 .caseStudySubheading{
 	font-size: 17px !important;
 }
