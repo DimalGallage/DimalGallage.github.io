@@ -91,7 +91,7 @@ body{
 
 /* case */
 .case_main{
-    padding-top: 20vh;
+    /*padding-top: 20vh;*/
     box-sizing: border-box;
 }
 .case{
@@ -198,3 +198,12 @@ body{
 .experience_main{
     padding: 0vh 0px 20vh 0px;
 }
+
+
+
+/* floating text */
+
+
+
+
+

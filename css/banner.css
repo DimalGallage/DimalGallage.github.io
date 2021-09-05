@@ -4,11 +4,15 @@
     flex-direction: column;
     justify-content: center;
 }
+.banner_subheading_top{
+	font-size: 17px;
+}
 .banner_subheading{
-    font-size: 17px;
+    font-size: 25px;
+	font-weight:300;
 }
 .banner_heading{
-    font-size: 35px;
+    font-size: 80px;
     font-weight: 800;
 }
 .seperator{
@@ -22,3 +26,43 @@
     margin-top: 10vh !important;
     height: 50vh !important;
 }
+.caseStudySubheading{
+	font-size: 17px !important;
+}
+
+
+.space{
+	color:white;
+	opacity:0;
+}
+
+
+
+
+/* floating text */
+
+.floating_text{
+	width:100vw !important;
+	border:1px solid;
+	position:absolute;
+	top:-20%;
+	left:0%;
+	font-weight:900;
+	z-index:-10;
+	opacity:0.1;
+	font-size:1000px;
+}
+@media (max-width:900px) {
+	.floating_text{
+		width:100vw !important;
+		border:1px solid;
+		position:absolute;
+		top:-20%;
+		left:0%;
+		font-weight:900;
+		z-index:-10;
+		opacity:0.1;
+		font-size:800px;
+	}
+}
+
