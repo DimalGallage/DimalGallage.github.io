@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dimalgallage.github.io/sitemap.xml
