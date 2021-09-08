@@ -55,26 +55,37 @@
 
 .floating_text{
 	width:100vw !important;
-	border:1px solid;
 	position:absolute;
-	top:-20%;
+	top:0%;
 	left:0%;
 	font-weight:900;
 	z-index:-10;
-	opacity:0.1;
-	font-size:1000px;
+	opacity:0.05;
+	font-size:500px;
+}
+.float_right{
+	top:360px;
 }
 @media (max-width:900px) {
 	.floating_text{
+		display:none;
 		width:100vw !important;
-		border:1px solid;
 		position:absolute;
-		top:-20%;
+		top:0%;
 		left:0%;
 		font-weight:900;
 		z-index:-10;
 		opacity:0.1;
-		font-size:800px;
+		font-size:350px;
 	}
+	.float_right{
+		top:260px;
+	}
+}
+
+.stroke{
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+	-webkit-text-fill-color: transparent;
 }
 

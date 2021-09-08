@@ -55,7 +55,12 @@
 #navLine1{margin-bottom: 15px;}
 #navLine2{margin-top: 15px;}
 
-
+@media (max-width:1400px){
+	.navbar{
+        padding: 30px;
+        box-sizing: border-box !important;
+    }
+}
 @media (max-width:900px){
     .navbar{
         padding: 30px;

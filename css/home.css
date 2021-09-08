@@ -110,6 +110,9 @@ body{
     .case{
         flex-direction: column !important;
     }
+	.case_image{
+		height:500px !important;
+	}
 }
 
 /* number */
@@ -137,7 +140,7 @@ body{
 /* repeat */
 .repeat_col{
     width: 20px !important;
-    /* border: 1px solid; */
+    /*border: 1px solid;*/
     padding: 0% !important;
 }
 .repeat{
@@ -146,7 +149,7 @@ body{
     transform: rotateZ(-90deg);
     margin: 0% !important;
     position:relative;
-    top: 85%;
+    top: 70%;
 }
 
 
@@ -201,7 +204,7 @@ body{
 
 
 
-/* floating text */
+
 
 
 
