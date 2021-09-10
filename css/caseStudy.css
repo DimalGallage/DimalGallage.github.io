@@ -67,3 +67,19 @@
     justify-content: center;
     align-items: center;
 }
+#otherWorkSeperator{
+    height: 1px !important;
+}
+
+
+/* review box */
+.review{
+    background-color:rgba(247, 238, 228, 0.89) ;
+    width: 400px;
+    border-radius: 20px;
+    height: fit-content;
+    margin: auto;
+}
+.review p{
+    padding: 20px 40px;
+}

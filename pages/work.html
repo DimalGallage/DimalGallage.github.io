@@ -2,26 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1">
 	
-    <meta name="description" content="About Dimal Gallage">
+    <meta name="description" content="Dimal Gallage Projects & Case Studies">
     <meta name="keywords" content="Dimal,Gallage,product,design,ux,ui,Dimal Gallage,ddsgallage,dondimalgallage,product design">
     <meta name="author" content="Dimal Gallage">
 	
-    <meta property="og:image" content="https://dimalgallage.github.io/portfolio2.0/static/profile.png">
-	<meta property="og:image:alt" content="Author Image">
-	<meta property="og:image:height" content="500">
-	<meta property="og:image:width" content="500">
+    <!-- <meta property="og:image" content="https://dimalgallage.github.io/portfolio2.0/static/profile.png"> -->
+	<!-- <meta property="og:image:alt" content="Author Image"> -->
+	<!-- <meta property="og:image:height" content="500"> -->
+	<!-- <meta property="og:image:width" content="500"> -->
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Dimal Gallage" />
-    <meta property="og:description" content="About Dimal Gallage" />
+    <meta property="og:title" content="Dimal Gallage Work" />
+    <meta property="og:description" content="Dimal Gallage Work" />
 	
-	<meta name="twitter:title" content="Dimal Gallage">
-	<meta name="twitter:description" content="About Dimal Gallage">
-	<meta name="twitter:image:src" content="https://dimalgallage.github.io/portfolio2.0/static/profile.png">
-	
-	
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1,minimum-scale=1">
+	<meta name="twitter:title" content="Dimal Gallage Portfolio">
+	<meta name="twitter:description" content="Dimal Gallage Projects & Case Studies">
+	<!-- <meta name="twitter:image:src" content="https://dimalgallage.github.io/portfolio2.0/static/profile.png"> -->
+    <title>Dimal Gallage | Work</title>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,6 +29,8 @@
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/caseStudy.css">
+    <link rel="stylesheet" href="../css/gallery.css">
 	<link rel="icon" href="../favicon.png" type="image/png" />
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-QTZ2YDTYL5"></script>
 	<script>
@@ -39,10 +40,8 @@
 
 	  gtag('config', 'G-QTZ2YDTYL5');
 	</script>
-    <title>Dimal Gallage About</title>
 </head>
 <body>
-
     <!-- navigation -->
     <nav class="navbar " >
         <div class="container-fluid">
@@ -60,7 +59,7 @@
                         <a class="nav-link" href="../index.html">HOME</a>
                     </li>
                     <li class="nav-item" data-aos="fade-up">
-                        <a class="nav-link" href="../pages/work.html">MY WORK</a>
+                        <a class="nav-link" href="../index.html#case_main">MY WORK</a>
                     </li>
                     <li class="nav-item" data-aos="fade-up">
                         <a class="nav-link" href="../pages/about.html">ABOUT ME</a>
@@ -73,47 +72,16 @@
         </div>
     </nav>
 
-    <!-- body -->
-    <div class="body mx-auto">
+    <div class="body mx-auto mt-5 pt-5">
 
-        <!-- banner -->
-        <div class="banner" style="height: 80vh;">
-            <div class="banner_text">
-                <h4 class="banner_subheading" data-aos="fade-down">Wondering Who am I,</h4>
-                <div class="seperator" id="seperator01" data-aos="fade-right"></div>
-                <h1 class="banner_heading"  data-aos="fade-right">I’m Dimal Gallage</h1>
-                <h4 class="banner_subheading caseStudySubheading"  data-aos="fade-right">
-                    An undergraduate at IIT enrolled in Bsc. Computer Science offered
-                    by University of Westminster UK. <br>
-                    I am an individual with keen passion for product design.
-                </h4>
+        <!-- gallery -->
+        <div class="col gallery">
+            <div class="row" data-aos="fade-up">
+                <a href="dialog.html" class="col-4 mx-auto mb-3 thumbnail" style="background-image: url(../static/dialog/cover.png);"></a>
+                <!-- <a href="./pages/tippy.html" class="col thumbnail" style="background-image: url(../static/tippy/thumbnail.png);"></a> -->
+                <a href="attic.html" class="col-4 mx-auto thumbnail" style="background-image: url(../static/attic/thumbnail.png);"></a>
             </div>
         </div>
-
-        <!-- experience -->
-        <div class="experience_main ">
-            <h1 class="text_head" data-aos="fade-up">Exprerience</h1>
-            <div class="seperator " data-aos="fade-up"></div>
-            <div class="experience">
-                <p class="text_para mt-5" data-aos="fade-up">
-                    Jul 2021 - Present<br>
-                    <strong>Intern Frontend Developer - Arimac Lanka Pvt Ltd</strong>
-                </p>
-            </div>
-        </div>
-
-        <!-- education -->
-        <div class="experience_main ">
-            <h1 class="text_head" data-aos="fade-up">Education</h1>
-            <div class="seperator " data-aos="fade-up"></div>
-            <div class="experience">
-                <p class="text_para mt-5" data-aos="fade-up">
-                    University of Westminster<br>
-                    <strong>Bsc. Computer Science</strong>
-                </p>
-            </div>
-        </div>
-
 
         <!-- footer -->
         <div class="footer" id="footer">
@@ -130,10 +98,7 @@
                 <a class="btn mx-auto px-3 " href="https://www.instagram.com/donz_designs_/" target="_blank">Instagram</a>
             </div>
         </div>
-
     </div>
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

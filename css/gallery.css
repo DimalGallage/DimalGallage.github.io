@@ -1,0 +1,6 @@
+.gallery{
+    margin-top: 100px !important;
+}
+.gallery .thumbnail{
+    width:fit-content ;
+}
