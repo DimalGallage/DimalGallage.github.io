@@ -24,6 +24,7 @@
     height: 40vh;
     background-size: auto 80% !important;
     background-repeat: no-repeat !important;
+    background-position: 50% 50% !important;
 }
 .user_persona_name p{
     margin-top: 20px !important;
@@ -75,11 +76,32 @@
 /* review box */
 .review{
     background-color:rgba(247, 238, 228, 0.89) ;
-    width: 400px;
+    max-width: 400px;
     border-radius: 20px;
     height: fit-content;
     margin: auto;
 }
 .review p{
     padding: 20px 40px;
+}
+
+
+
+/* user journey */
+.userJourney_main{
+    text-align: center;
+}
+.userJourney_main .mobile{
+    display: none;
+}
+@media(max-width:900px){
+
+    .userJourney_main .mobile{
+        display: block;
+        width: 80vw;
+        margin: auto !important;
+    }
+    .userJourney_main .web{
+        display: none;
+    }
 }

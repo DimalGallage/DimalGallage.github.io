@@ -106,6 +106,9 @@ body{
     padding-right: 50px;
     box-sizing: border-box;
 }
+.case_image{
+    background-position: center !important;
+}
 @media (max-width:900px) {
     .case{
         flex-direction: column !important;
@@ -201,6 +204,7 @@ body{
 .experience_main{
     padding: 0vh 0px 20vh 0px;
 }
+
 
 
 
