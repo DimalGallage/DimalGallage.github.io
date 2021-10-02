@@ -22,7 +22,7 @@
 }
 .user_persona_image{
     height: 40vh;
-    background-size: auto 50% !important;
+    background-size: 50% !important;
     background-repeat: no-repeat !important;
     background-position: 50% 50% !important;
 }
