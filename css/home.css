@@ -205,6 +205,24 @@ body{
     padding: 0vh 0px 20vh 0px;
 }
 
+.actionLink{
+    text-align: center;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 80vh;
+    left: 45%;
+    right: 45%;
+    text-decoration: none;
+    color: inherit !important;
+    transition: 0.1s all ease-in;
+}
+.actionLink:hover{
+    transform: translateY(-10px);
+
+}
 
 
 

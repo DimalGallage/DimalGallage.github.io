@@ -105,3 +105,18 @@
         display: none;
     }
 }
+
+
+
+.pharmicHead{
+    color: #00407B !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+.pharmicFont{
+    font-family: 'Poppins', sans-serif;
+}
+.pharmicImage{
+    object-fit: cover;
+}
