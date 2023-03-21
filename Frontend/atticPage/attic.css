@@ -1,0 +1,102 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.backBtn button, .scroll_down button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: url(../images/download.png) 50% 50% no-repeat;
+    background-size: 100%;
+    background-color: white;
+    transform: rotateZ(90deg);
+    position: absolute;
+    top: 5vh;
+    left: 3vw;
+}
+.backBtn:focus{
+    outline: none;
+}
+
+.intro{
+    /* border: 1px solid; */
+    width: 98vw;
+}
+.intro_pic,.intro_content{
+    float: left;
+}
+.intro_pic{
+    width: 50%;
+    /* border: 1px solid; */
+}
+.intro_pic img{
+    width: 100%;
+}
+
+.intro_content{
+    /* border: 1px solid; */
+    width: 47%;
+}
+.intro_content img{
+    /* border: 1px solid; */
+    width: 60%;
+}
+.intro_content p{
+    font-family: 'Poppins';
+    color: rgb(82, 44, 0);
+    font-size: 13px;
+    padding: 20px 100px 20px 0px;
+    box-sizing: border-box;
+}
+.scroll_down button{
+    top: 90vh;
+    left: 50vw;
+    right: 50vw;
+    transform: rotateZ(0deg);
+    animation-duration: 800ms;
+    animation-iteration-count: infinite;
+}
+.scroll_down button:hover{    animation-name: scroll_btn_anim;}
+.scroll_down button:focus{outline: none;}
+
+@keyframes scroll_btn_anim{
+    0%{transform: translateY(0px);}
+    50%{transform: translateY(-20px);}
+    100%{transform: translateY(0px);}
+}
+
+.content_main{
+    clear: both;
+}
+
+.box{
+    display: flex;
+    width: 99vw;
+    /* border: 1px solid; */
+    margin: 10px 0px;
+}
+.content_box{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 50px 100px 50px 100px;
+    font-family: 'Poppins';
+    color: rgb(82, 44, 0);
+    /* border: 1px solid; */
+}
+.content_box h3{
+    font-size: 30px;
+}
+.content_box p{
+    font-size: 13px;
+}
+.image_box{
+    width: 50%;
+}
+.image_box img{
+    width: 60%;
+    /* border: 1px solid; */
+    position: relative;
+    left: 20%;
+    right: 20%;
+}

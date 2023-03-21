@@ -1,0 +1,138 @@
+footer{
+    width: 100vw;
+    /* height:420px; */
+    background-color: #39485A;
+    border: none;
+    color: white;
+
+}
+footer a{color: white;}
+
+.publish_container,.sitemap_container,.newsletter_container{
+    float: left;
+    /* border: 1px solid; */
+    padding: 60px;
+    box-sizing: border-box;
+    width: 30%;
+    height: 300px;
+}
+.sitemap_container h2,.newsletter_container h2{
+    font-size: 20px;
+}
+.sitemap_container,.newsletter_container{
+    font-size: 12px;
+}
+
+
+
+
+
+
+.line1,.line2{
+    font-size: 30px;
+    margin: 0%;
+    padding: 0%;
+}
+.line1{font-weight: 300;}
+.line2{
+    font-weight: 900;
+    color: #A1FCFF;
+}
+.publish_container button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color:white;
+    margin: 30px 0px;
+    color: #39485A;
+}
+
+
+.sitemap_container ul{
+    /* border: 1px solid; */
+    margin: 0%;
+    padding: 0%;
+}
+.sitemap_container ul li{
+    list-style: none;
+    transition: 0.1s all ease-in;
+    margin: 10px;
+}
+.sitemap_container ul li a{
+    text-decoration: none;
+}
+.sitemap_container ul li:hover{
+    transform: translateX(5px);
+}
+
+
+.newsletter_container{
+    /* border: 1px solid; */
+    padding-left: 0px;
+    width: 40%;
+}
+.newsletter_container input{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 200px;
+}
+.newsletter_container button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #39485A;
+    width: 100px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+
+.disclaimer_container{
+    clear: both;
+    width: 100vw;
+    background-color: #44576D;
+}
+.disclaimer_container p{
+    text-align: center;
+    padding: 40px 0px;
+    font-size: 13px;
+}
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    .sitemap_container{
+        display: none;
+    }
+    .publish_container,.newsletter_container{
+        text-align: center;
+        width: 100%;
+        height: 250px;
+        float: none;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .sitemap_container{
+        display: block;
+    }
+    .publish_container,.newsletter_container,.sitemap_container{
+        text-align: center;
+        width: 100%;
+        height: 250px;
+        float: none;
+        margin: auto;
+    }
+    .newsletter_container{
+        padding-left: 30px;
+        padding-bottom: 250px;
+    }
+    .disclaimer_container{
+        display: none;
+    }
+}

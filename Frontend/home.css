@@ -1,0 +1,134 @@
+.home_container{
+    /* display: flex; */
+    /* border: 1px solid blue; */
+    padding:0vh 20vw;
+    z-index: -99999;
+    transform: translateY(-15px);
+}
+.home_inner_container{display: flex;}
+.home_container h1{
+    margin: 0%;
+    padding: 0%;
+    /* border: 1px solid; */
+    color: #6F2386;
+    font-size: 5vw;
+    width: 75%;
+}
+.home_content_container{
+    width: 40vw;
+    /* border: 1px solid; */
+    margin: auto;
+}
+.image_container{
+    /* border: 1px solid; */
+}
+.heading01{
+    font-family: "Poppins",sans-serif;
+    font-weight: 900;
+    margin: 0%;
+    padding:0% ;
+}
+.heading02{
+    font-family: "Poppins",sans-serif;
+    font-weight: 300;
+    transform:translateY(-4vh);
+    text-align: right;
+    margin: 0%;
+    padding: 0%;
+}
+.home_content_container p{
+    color: #6F2386;
+    font-family: "Poppins",sans-serif;
+    font-size:1.8vh;
+    margin: 0%;
+    width: 90%;
+    /* border: 1px solid; */
+    transform: translateY(-50px);
+}
+#para_01::first-letter{
+    font-size: 5vh;
+    font-weight: 200;
+}
+#para_01 span{
+    font-weight: 700;
+}
+/* #para_01{
+    margin-top: 0%;
+} */
+.home_content_container button{
+    width: 170px;
+    height: 50px;
+    margin: 20px 20px 0px 0px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-family: "Poppins",sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    transform: translateY(-50px);
+    background-color: #DDE0EA;
+    border: none;
+    color: hsl(286, 59%, 33%);
+    transition: 0.1s all ease-in;
+    cursor: pointer;
+}
+#download{
+    background-color: #6F2386;
+    color: #FFFFFF;
+}
+.home_content_container button:hover{
+    transform: translateY(-40px);
+}
+span{
+    font-weight:400;
+}
+
+/* .image_container{border: 1px solid;} */
+.image_container img{
+    width:90%;
+    transform-origin: center;
+    transform: translate(10%,40%);
+}
+
+
+.SM_icon_container{
+    /* border: 1px solid; */
+    width: 100%;
+    text-align: center;
+}
+.SM_icon_container img{
+    margin: auto;
+    margin: 10px;
+    width: 35px;
+    transition: 0.1s all ease-in;
+    /* cursor: pointer; */
+}
+.SM_icon_container img:hover{
+    transform: translateY(-10px);
+}
+
+
+@media only screen and (max-width: 940px) {
+    .home_container{padding: 0vw 10vw;}
+    .home_inner_container{display:block;}
+    .home_content_container{
+        width:100%;
+    }
+    .home_container h1{
+        font-size: 15vw;
+        width: 100%;
+    }
+    .heading_container{
+        margin:0vh 0vw 5vh 0vw;
+    }
+    .home_content_container p{
+        font-size: 12px;
+    }
+    .home_content_container button{
+        width: 120px;
+        margin-top: 5vh;
+    }
+
+    .image_container{
+        display: none;
+    }
+}

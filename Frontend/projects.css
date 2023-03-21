@@ -1,0 +1,129 @@
+.projects_container{
+    width: 80vw;
+    /* height: 200vh; */
+    margin: auto;
+    /* border: 1px solid; */
+    background: rgb(173,110,255);
+    background: linear-gradient(298deg, rgba(173,110,255,1) 0%, rgba(125,248,203,1) 100%);
+    /* border-top-left-radius: 40vh; */
+    border-bottom-right-radius:20vh;
+    border-bottom-left-radius: 20vh;
+}
+
+.main_project_container{
+    /* border: 1px solid; */
+    display: flex;
+}
+
+.main_project_image , .main_project_content{
+    width: 50%;
+    padding: 10vh;
+    box-sizing: border-box;
+    color: white;
+}
+
+.main_project_image img{
+    width: 100%;
+    margin-top: 20%;
+}
+#project_img_hidden{
+    display: none;
+}
+.main_project_content h1{
+    margin: 10% 0%;
+}
+.main_project_content h1,.main_project_content h3{
+    font-weight: 300;
+}
+.main_project_content h3{
+    font-weight: 400;
+}
+.main_project_content p{
+    font-weight: 200;
+    font-size: 14px;
+}
+.main_project_content button{
+    background-color: white;
+    color:  #6F2386;
+    font-weight: 900;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.case_studies{
+    padding: 10vh;
+    box-sizing: border-box;
+    color: white;
+    /* border: 1px solid; */
+    padding-top: 0%;
+    /* padding-bottom: 10vh; */
+}
+.case_studies h1{
+    font-weight: 300;
+}
+.cs_container{
+    display: flex;
+}
+.case{
+    /* border: 1px solid; */
+    width: 33%;
+    margin: auto;
+    padding: 2%;
+}
+.case h4{
+    font-weight: 400;
+}
+.case p{
+    font-size: 14px;
+    font-weight: 200;
+}
+.case .case_image{
+    background-color: white;
+    border-radius: 10px;
+    height:40vh;
+    width:100%;
+}
+
+
+@media only screen and (max-width: 940px) {
+    .projects_container{
+        width: 100vw;
+        border-radius: 0%;
+    }
+    .main_project_container{
+        display: block;
+    }
+    #project_img_hidden{
+        display: block;
+    }
+    #project_main_img{
+        display:none;
+    }
+    .main_project_image , .main_project_content{
+        width: 80%;
+        padding: 0%;
+        margin: auto;
+    }
+    .main_project_content{
+        padding-top: 7vh;
+    }
+
+    .case_studies{
+        padding: 8vw;
+    }
+    .case_studies h1{
+        text-align: left;
+        font-size: 30px;
+    }
+    .cs_container{
+        display: block;
+    }
+    .case{
+        width: 90%;
+        padding:0%;
+        margin-bottom: 20px;
+    }
+}

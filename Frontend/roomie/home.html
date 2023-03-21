@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="home_tablet.css">
+    <link rel="stylesheet" href="home_phone.css">
+    <link rel="stylesheet" href="favourite.css">
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous">
+    </script>
+    <script
+        src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+        integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30="
+        crossorigin="anonymous">
+    </script>
+    <Script src="home.js"></Script>
+    <script src="common.js"></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script> -->
+    <!-- <script src="jquery-ui-1.9.0.custom.min.js"></script> -->
+    <script src="favourite.js"></script>
+    <title>roomie | Home</title>
+</head>
+<body>
+
+    <!-- navigation bar -->
+    <nav class="navigation">
+        <h1 class="logo">roomie</h1>
+        <ul>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Favourites</a></li>
+            <li><a href="">Publish</a></li>
+            <li><a href="">Property Listing</a></li>
+        </ul>
+    </nav>
+
+    <!-- header content with search bar -->
+    <header>
+        <div class="header_content">
+            <h1>roomie<sup>TM</sup></h1>
+            <form action="">
+                <input type="search" name="productSearch" id="productSearch" placeholder="         ex :  Colombo , Apartment etc"><br>
+                <input type="button" value="Search Property" onclick="searchEvent()">
+            </form>
+        </div>
+    </header>
+
+
+    <!-- navigation button container -->
+    <div class="button_container" id="button_container">
+        <div class="button_block">
+            <button id="btn_house"></button>
+            <label for="btn_house">Houses/Mansions</label>
+        </div>
+        <div class="button_block">
+            <button id="btn_apartment"></button>
+            <label for="btn_apartment">Apartments / Flats</label>
+        </div>
+        <div class="button_block">
+            <button id="btn_land"></button>
+            <label for="btn_land">Lands and Estates</label>
+        </div>
+        <div class="button_block">
+            <button id="btn_commercial"></button>
+            <label for="btn_commercial">Commercial Spaces</label>
+        </div>
+        <div class="button_block">
+            <button id="btn_office"></button>
+            <label for="btn_office">Office Spaces</label>
+        </div>
+    </div>
+
+
+    <!-- fiter container -->
+    <div class="filter_container" id="filter_container">
+        <h2>Filter your searches</h2>
+        <form action="">
+        <div class="form_container">
+            <div class="left_container">
+                <div class="input_block">
+                    <label for="location">Location</label>
+                    <select name="location" id="location" class="filter_select">
+                        <option value="London">London</option>
+                        <option value="York">York</option>
+                        <option value="Bristol">Bristol</option>
+                        <option value="Leeds">Leeds</option>
+                        <option value="Liverpool">Liverpool</option>
+                        <option value="Manchester">Manchester</option>
+                        <option value="Orpington">Orpington</option>
+                    </select>
+                </div>
+                <div class="input_block">
+                    <label for="prop_type">Property Type</label>
+                    <select name="type" id="prop_type" class="filter_select">
+                        <option value="House">House</option>
+                        <option value="Apartment">Apartment</option>
+                        <option value="Land">Land</option>
+                        <option value="Office">Offices</option>
+                        <option value="Warehouse">Warehouse</option>
+                    </select>
+                </div>
+                <div class="input_block" id="transaction_type_radio">
+                    <input type="radio" name="transaction" id="rent">
+                    <label for="rent">For Rent</label>
+                    <input type="radio" name="transaction" id="sale">
+                    <label for="sale">For Sale</label>
+                </div>
+            </div>
+            <div class="right_container">
+                <div class="input_block">
+                    <label class="spinner_label">Price Range : <span id="priceValue"></span></label>
+                    <div id="price_range_spinners">
+                        <input type="range" min="1" max="1000000" value="1" class="slider" id="priceRange">
+                    </div>
+                </div>
+                <div class="input_block">
+                    <label class="spinner_label">No of Bedrooms : <span id="roomValue"></span></label>
+                    <div id="room_count_spinners">
+                        <input type="range" min="1" max="10" value="1" class="slider" id="roomRange">
+                    </div>
+                </div>
+                <div class="input_block" id="date_block">
+                    <label for="date_added">Added to the site : </label>
+                    <input type="date" name="date_added" id="date_added" value="2020-01-01">
+                </div>
+            </div>
+        </div>
+        <div class="filter_btn_grp">
+            <input type="button" value="Add Filters" id="filter_submit" onclick="filterEvent()">
+            <input type="reset" value="Remove Filters" id="filter_remove">
+        </div>
+        </form>
+    </div>
+
+
+    <!-- listing contaier -->
+    <div class="main_listing_collecion" id="main_listing_container">
+        <h2 id="listing_container_heading">Explore Listings</h2>
+        <h2 id="emptyMsg"></h2>
+
+        <div id="listingCards">
+        </div>
+
+    </div>
+
+
+    <!-- footer section -->
+    <footer>
+        <div class="footer_content">
+            <div class="publish_container">
+                <p class="line1">Publish your property</p>
+                <p class="line2">GET STARTED NOW</p>
+                <button>Become a authorized seller</button>
+            </div>
+            <div class="sitemap_container">
+                <h2>Site Map</h2>
+                <ul>
+                    <li><a href="">Property Listing</a></li>
+                    <li><a href="">Publish</a></li>
+                    <li><a href="">Favourites</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">About Us</a></li>                                      
+                </ul>
+            </div>
+            <div class="newsletter_container">
+                <h2>Signup for our newsletter</h2>
+                <p>Get weekly updates from our website 
+                    including newly added properties, 
+                    promotions and personnel recommendations 
+                    sorted out using your previous interests 
+                    or views
+                </p>
+                <label for="newsletter_email">Your Email :</label><br>
+                <input type="email" name="newsletter_email" id="newsletter_email">
+                <button id="newsletter_signup">Sign up</button>
+            </div>
+            <div class="disclaimer_container">
+                <p>All rights reserved  |  Click to view the user 
+                    <a href="">privacy policy</a> 
+                    and website user 
+                    <a href="">terms and conditions</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- favourites menu -->
+    <div class="favourite_menu" id="favourite_menu">
+        <button id="favMenuBtn"></button>
+        <h3>Your Favourites</h3>
+        <ul>
+
+        </ul>
+    </div>
+
+</body>
+</html>

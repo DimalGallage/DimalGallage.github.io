@@ -1,0 +1,84 @@
+.favourite_menu{
+    position: absolute;
+    top: 0%;
+    right: -20vw;
+    height: 100vh;
+    width: 25vw;
+    z-index: 99999;
+    background-color: white;
+    transition: 0.5s all ease-in;
+    position: fixed;
+    box-shadow: 0px 10px 10px #39485A;
+    padding: 0%;
+}
+#favMenuBtn{
+    transform: rotateZ(-90deg);
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color:#39485A ;
+    border-radius: 50%;
+    margin: 20px;
+    background: url(images/topIcon.png) 50% 50% no-repeat;
+    background-size:75%;
+    transition: 0.5s all ease-in;
+}
+
+/* styling when item is dragging  */
+.favMenuActive{
+    right: 0vw;
+}
+
+.favourite_menu ul{list-style: none;margin: 0%;padding: 0%;}
+.favourite_menu ul li{
+    margin: 0%;padding: 0%;
+    display: flex;
+}
+.favourite_menu ul li div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin:10px 0px 10px 10px;
+
+}
+
+/* remove button */
+#remove_button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    border: none;
+}
+#remove_button:hover{
+    color: white;
+    background-color: rgb(214, 130, 130);
+}
+
+
+
+.favourite_menu li p{
+    font-size: 12px;
+    margin: auto;
+    padding: 10px 13px;
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+}
+.favourite_menu h3{
+    font-family: 'Poppins',sans-serif;
+    font-weight: 200;
+    color: #39485A;
+    font-size: 25px;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+}
+
+
+/* styling when item is dragged out of fav menu */
+.favourite_menu .ui-draggable-dragging .list_image{
+    width: 50px; 
+    height: 50px;
+}
+.favourite_menu .ui-draggable-dragging p,.favourite_menu .ui-draggable-dragging button{display: none;}
