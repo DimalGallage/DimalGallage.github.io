@@ -123,6 +123,10 @@ body{
 		font-size:12px !important;
 	}
 
+	.instagramFeed{
+		flex-direction:column !important;
+	}
+
 }
 
 /* number */
@@ -230,6 +234,8 @@ body{
     transform: translateY(-10px);
 
 }
+
+
 
 
 
