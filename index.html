@@ -75,15 +75,63 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/MotionPathPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
-  <body onscroll="navMove()">
-    <!-- cursor -->
+  <style>
+    .button_container {
+      transition: all 0.3s ease;
+      background-color: #333;
+      color: #fff;
+      border: 2px solid #333;
+    }
+    .button_container:hover {
+      background-color: #fff;
+      color: #333;
+    }
+  </style>
 
-    <!-- <div class="cursor"></div> -->
+  <body onscroll="navMove()" style="padding: 0rem 2rem">
+    <div
+      style="
+        height: 100vh;
+        background-color: #fff8ef;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-family: 'Anton', sans-serif;
+        color: #333;
+        font-size: 4rem;
+        text-align: center;
+      "
+    >
+      <h1>Hello! You are looking at my portfolio from stone age</h1>
+      <button
+        onclick="window.location.href='https://dondimalgallage.webflow.io'"
+        style="
+          padding: 20px 30px;
+          border-radius: 100px;
+          font-size: 2rem;
+          font-family: 'Anton', sans-serif;
+          transition: all 0.3s ease;
+          cursor: pointer;
+        "
+        class="button_container"
+      >
+        Visit the new portfolio →
+      </button>
+    </div>
 
-    <!-- hamburger menu navigation -->
-    <div id="top">
+    <!-- <div id="top">
       <div class="main_pane">
         <div class="inner_pane">
           <div class="content_pane" id="content_pane">
@@ -180,11 +228,9 @@
           <img src="/Frontend/images/donz_logo.png" alt="" width="100px" />
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <!-- home container -->
-
-    <div class="home_container" id="home_container">
+    <!-- <div class="home_container" id="home_container">
       <div class="home_inner_container">
         <div class="home_content_container">
           <div
@@ -281,10 +327,9 @@
             data-aos-duration="2000"
         /></a>
       </div>
-    </div>
+    </div> -->
 
-    <!-- skills container technology stack-->
-    <div class="skills_container" id="skills_container">
+    <!-- <div class="skills_container" id="skills_container">
       <div class="skills_inner_container">
         <h1>What I have improved my skills in,</h1>
         <div class="skills_icon_container">
@@ -294,7 +339,7 @@
             <img src="Frontend/images/html.png" alt="java" />
             <img src="Frontend/images/css.png" alt="java" />
             <img src="Frontend/images/js.png" alt="java" />
-            <!-- <img src="images/flutter.png" alt="java"> -->
+           
           </div>
           <div class="row_02" data-aos="fade-left">
             <img src="Frontend/images/react.png" alt="java" />
@@ -307,7 +352,6 @@
       </div>
     </div>
 
-    <!-- projects container -->
     <div class="projects_container" id="projects_container">
       <div class="main_project_container">
         <div class="main_project_image" id="project_main_img">
@@ -334,40 +378,8 @@
         </div>
       </div>
 
-      <!-- <div class="case_studies">
-            <h1>Case Studies</h1>
-            <div class="cs_container">
-
-                <div class="case" data-aos="zoom-in-up">
-                    <div class="case_image"></div>
-                    <h4>Attic Mobile App</h4>
-                    <p>Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit. 
-                        Proin bibendum porta imperdiet.
-                    </p>
-                </div>
-                <div class="case" data-aos="zoom-in-up">
-                    <div class="case_image"></div>
-                    <h4>Attic Mobile App</h4>
-                    <p>Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit. 
-                        Proin bibendum porta imperdiet.
-                    </p>
-                </div>
-                <div class="case" data-aos="zoom-in-up">
-                    <div class="case_image"></div>
-                    <h4>Attic Mobile App</h4>
-                    <p>Lorem ipsum dolor sit amet, 
-                        consectetur adipiscing elit. 
-                        Proin bibendum porta imperdiet.
-                    </p>
-                </div>
-
-            </div>
-        </div> -->
     </div>
 
-    <!-- web development -->
     <div class="web_main">
       <div class="web_dev_container" id="web_dev_container">
         <div class="web_screen">
@@ -382,26 +394,7 @@
             <br />
           </p>
           <div class="web_dev_inner">
-            <!-- <a href="./roomie/home.html">
-                        <div class="website" id="web01" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
 
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="website" id="web02" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
-
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="website" id="web03" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
-
-                        </div>
-                    </a>
-                    <a href="">
-                        <div class="website" id="web04" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="2000">
-
-                        </div>
-                    </a> -->
             <div style="margin: 0px 20px">
               <img src="static/datacleaner.png" alt="" width="100%" />
               <h3>Data Cleaner</h3>
@@ -443,24 +436,9 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- design gallery -->
-    <!-- <div class="gallery_main" id="design_gallery">
-        <div class="gallery_heading">
-            <h1>DESIGN<br><span>GALLERY</span></h1>
-        </div>
-        <div class="gallery_inner">
-            <div id="gallery_img_01" class="panel"></div>
-            <div id="gallery_img_02" class="panel"></div>
-            <div id="gallery_img_03" class="panel"></div>
-            <div id="gallery_img_04" class="panel"></div>
-        </div>
     </div> -->
 
-    <!-- contact form -->
-
-    <div class="contact_main" id="contact_container">
+    <!-- <div class="contact_main" id="contact_container">
       <div class="detail_container">
         <div class="SM_icon_container_contact">
           <a href="https://github.com/DimalGallage"
@@ -492,14 +470,14 @@
               >
             </p>
             <p>Mobile No - +94 77456 4321</p>
-            <!-- <p>Address - 88/3 Kurunduwatte Road, Pitakotte, Colombo , Sri Lanka</p> -->
+
           </div>
         </div>
         <img class="contact_image" src="images/contact_background.png" alt="" />
       </div>
     </div>
 
-    <!-- side navigation buttons -->
+
 
     <div class="side_nav_container">
       <ul>
@@ -525,7 +503,7 @@
           </a>
         </li>
       </ul>
-    </div>
+    </div> -->
 
     <!-- <script src="cursor.js"></script> -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
