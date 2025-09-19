@@ -308,7 +308,6 @@ figcaption {
   flex-direction: column;
   justify-content: flex-start;
   align-items: stretch;
-  max-width: 20rem;
   display: flex;
 }
 
@@ -1154,6 +1153,11 @@ figcaption {
   display: flex;
 }
 
+.button.w--current {
+  justify-content: center;
+  align-items: center;
+}
+
 .button.is-text {
   color: #000;
   background-color: #0000;
@@ -1471,6 +1475,15 @@ figcaption {
 
 .fs-styleguide_heading-header {
   font-size: 6rem;
+}
+
+._404-title {
+  background-image: linear-gradient(-45deg, var(--_hutt---text-gradient-grey), white);
+  font-family: var(--_hutt---primary);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 30vw;
 }
 
 .background-gradient {
@@ -2068,6 +2081,23 @@ figcaption {
 
 .logo {
   max-height: 60px;
+}
+
+.text-block {
+  font-family: var(--_hutt---primary);
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.preloader_wrapper {
+  z-index: 100;
+  background-color: var(--_hutt---bg-gradient-black);
+  mix-blend-mode: saturation;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 @media screen and (max-width: 991px) {
@@ -2737,6 +2767,30 @@ figcaption {
   .platform_card {
     position: sticky;
     top: 7rem;
+  }
+
+  .platform_card.pc2 {
+    top: 11rem;
+  }
+
+  .platform_card.pc3 {
+    top: 15rem;
+  }
+
+  .platform_card.pc4 {
+    top: 19rem;
+  }
+
+  .platform_card.pc5 {
+    top: 23rem;
+  }
+
+  .platform_card.pc6 {
+    top: 27rem;
+  }
+
+  .platform_card.pc7 {
+    top: 31rem;
   }
 
   .cta_wrap {
