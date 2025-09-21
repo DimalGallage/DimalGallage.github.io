@@ -2100,6 +2100,12 @@ figcaption {
   left: 0;
 }
 
+@media screen and (min-width: 1920px) {
+  .section_hero.background-gradient {
+    min-height: 90vh;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .padding-xlarge {
     padding: 3rem;
